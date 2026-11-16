@@ -1,0 +1,95 @@
+##Data Types
+
+#Integer-->int
+a=10
+b=20
+c=a+b
+print(c)
+print(type(c))
+
+#Float-->float
+a=1.5
+print(type(a))
+
+#Complex-->complex Studied rarely
+b=5+4j
+print(type(c))
+
+#Boolean-->bool Studied rarely
+c=True
+print(type(c)
+
+##Operators
+
+#Arithmetic
+a=int(input("Enter a:"))
+b=int(input("Enter b:"))
+print("Add:",a+b)
+print("Sub:",a-b)
+print("Mult:",a*b)
+print("Div:",a/b)
+print("Modulus:",a%b)-->Gives the Reminder
+print("Exponential:",a**b)-->Gives the Exponential value
+print("Floor Div:",a//b)-->Gives the Quotient
+
+#Q> Find The Last Digit:-
+a=int(input("Enter a"))
+b=a%10
+print("Last Digit",b)
+
+#Q> Remove The Last Digit:-
+a=int(input("Enter a"))
+b=a//100
+print("Remove",b)
+
+#Comparison
+a=int(input("Enter a:"))
+b=int(input("Enter b:"))
+print(a==b)-->Verify Equality
+print(a!=b)-->Verify Unequality
+print(a>b)-->Verify Greaterness
+print(a<b)-->Verify Greaterness
+print(a>=b)-->Verify Greaterness or Equality
+
+#Logical
+x=5
+y=2
+print(x>10 and y<5)
+print(x>=5 and y<5)
+print(x>10 or y<5)
+print(not(y==2))
+print(not(y!=2))
+
+#Assignment
+a=5
+a+=2
+a-=3
+a*=4
+a/=2
+print(a)
+
+#Special
+#> Identification-->is/is not
+a=[3,7]
+b=a
+c=[3,7]
+print(a is b)
+print(a is c)
+print(a is not c)
+
+#> Membership-->in/not in
+x=["Hi","Hello","Ok"]
+print("Hi" in x)
+print("Hii" in x)
+print("Hiii" in x)
+
+#Bitwise
+a=5
+b=3
+print("&:",a&b)
+print("/:",a/b)
+print("^:",a^b)
+print("~a:",~a)
+print("~b:",~b)
+
+##END OF DAY1
